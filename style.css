@@ -11,12 +11,18 @@ body{
     
 }
 header h1{
-    margin: auto;
-    margin-top: 7%;
     font-size: 120px;
     color:white;
     text-align: center;
-    
+    animation-name: titulo;
+    animation-duration: 3s;
+    position: relative;
+    top:100px;
+}
+@keyframes titulo{
+    0% {color: rgba(0,0,0,0); top:75px;};
+    90% {color: rgba(255,255,255,20);};
+    100% {color: rgba(255,255,255,100);}
 }
 main{
     margin-top:15%;

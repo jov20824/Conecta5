@@ -25,6 +25,7 @@ header a{
   align-items: center;
   justify-content: center;
   height: 100vh;
+    background: linear-gradient(rgb(17, 24, 39), rgb(88, 28, 135), rgb(124, 58, 237))
 }
 table{
     margin: auto;
